@@ -1,1 +1,1 @@
-red Color red of branch 1
+blue color branch 2
