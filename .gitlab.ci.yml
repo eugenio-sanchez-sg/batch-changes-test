@@ -1,0 +1,12 @@
+stages:
+  - test
+
+include:
+  - project: "dwp/engineering/pipeline-solutions/gitlab/fragments/sonarqube"
+    ref: main
+    file: "ci-include-sonar-scanner-base.yml"
+
+my-job:
+  stage: test
+  script:
+    - echo "hello"
